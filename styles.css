@@ -1,0 +1,118 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    background-color: #0d1a2d;
+}
+.flex-box {
+    display: flex;
+    padding: 30px;
+    background-color: rgb(21, 39, 63);
+    width: 300px;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 40px 0px 20px #0c1729, 0px 30px 0px 60px #0c192c;
+}
+h2 {
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: rgb(251, 255, 253);
+    width: 200px;
+}
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.description {
+    font-weight: 300;
+    color: #8195b0;
+    font-size: 18px;
+}
+.values {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -10px;
+}
+.eth {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+}
+.eth-icon {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    margin-top: 18px;
+}
+.clock {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    margin-top: 18px;
+    margin-left: 50px;
+}
+img {
+    border-radius: 20px;
+}
+.nft-img {
+    width:300px;
+}
+.image-view-container {
+    transform: translate(0px, -302px);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    align-items: center;
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%, 50%);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.18s ease-in-out;
+}
+.image-view-container:hover {
+    opacity: 100;
+}
+.image-view {
+    position: absolute;
+    transform: translate(126px, 126px);
+}
+#quantity {
+    color: hsl(178, 100%, 50%);
+}
+#timeleft {
+    color: #8195b0;
+}
+hr {
+    width: 100%;
+    border: 1px solid white;
+}
+.creator {
+    display: flex;
+    justify-content: left;
+}
+#avatar {
+    border: solid white;
+    border-width: 1px;
+    border-radius: 64px;
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+#creation-of {
+    color: #8195b0;
+    margin-right: 3px;
+}
+#creator-name {
+    color: white;
+    font-weight: 400;
+}
+#creator-name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
